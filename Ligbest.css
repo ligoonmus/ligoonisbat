@@ -1,0 +1,105 @@
+*{
+    font-size: 30px;
+    color: blue;
+}
+/* Header styles */
+body{
+    font-size: px;
+}
+.main {
+    width: 100%;
+    height: 8vh;
+    position: fixed;
+    over-flow: hidden;
+    background: linear-gradient;
+    background-color: blue;
+    
+}
+nav{
+    background-color: blue;
+}
+
+/* Navigation styles */
+.nav {
+    width: 40;
+    position: sticky;
+    margin: 40px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    background-color: yellow;
+}
+.logo {
+    flex-basis: 40%;
+    margin: 03px;
+    padding: 03px;
+    display: flex;
+    font-family: Comic sans MS;
+    font-size: 30px;
+    color: white;
+}
+.nav-link {
+    flex: 1;
+    text-align: right;
+    font-size: 20px;
+}
+
+.nav-link ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.nav-link ul li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+Contact{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+header{
+    background-color: #aab5ff;
+}
+.details img{
+    width: 70%;
+    height: 70%;
+}
+.details p{
+    font-style: italic;
+    color: blue;
+    font-size: 30px;
+    
+}
+
+/* Features section styles */
+.features {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.feature-item {
+    width: 30%;
+}
+
+.feature-item img {
+    width: 100%;
+    height: 50%;
+}
+.contact{
+    text-align: center;
+}
+}
+/* Footer styles */
+footer {
+    background-color: white;
+    color: blue;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
+
